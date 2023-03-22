@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Due Date Calendar</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9865/9865222.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://cdn-icons-png.flaticon.com/512/9865/9865222.png" class="topImg" alt="">
+        <center><h1>Due Date Calculator</h1></center>
+        <div class="form-container">
+            <form>
+                <div class="input-name">
+                    <label >Estimate Based On:</label>
+                    <br>
+                    <select class="select">
+                      <option >Last Period</option>
+                      <option >Ultrasound</option>
+                      <option >Conception date</option>
+                      <option>IVF Tranfer Date</option>
+                    </select>
+                    <div class="arrow"></div>
+                </div>
+                <div class="input-name">
+                    <label >First Day Of Your Last Period:</label>
+                    <br>
+                    <input type="date" class="date">
+                </div>
+                <div class="input-name">
+                    <label class="label">Average Length Of Your Cycle:</label>
+                    <br>
+                    <select class="select">
+                        <option>22 days</option>
+                        <option>23 days</option>
+                        <option>24 days</option>
+                        <option>25 days</option>
+                        <option>26 days</option>
+                        <option>27 days</option>
+                        <option>28 days</option>
+                        <option>29 days</option>
+                        <option>30days</option>
+                    </select>
+                    <div class="arrow"></div>
+                </div>
+                <div class="input-name">
+                    
+                    <input type="submit" class="button" value="Calculate">
+                    <input type="reset" class="button" id="clear" value="Clear">
+
+                </div>
+                
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
